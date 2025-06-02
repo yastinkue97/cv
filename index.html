@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio - Konstantina Kue</title>
+  <style>
+    :root {
+      --primary: #1c2b45;
+      --accent: #c8a96a;
+      --light-bg: #fdfcf9;
+      --card-bg: #ffffff;
+      --text-main: #1a1a1a;
+      --text-muted: #666;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--light-bg);
+      color: var(--text-main);
+    }
+
+    header {
+      background: linear-gradient(120deg, var(--primary), #141d2e);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid var(--accent);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 32px;
+      margin: 10px 0;
+    }
+
+    header p {
+      font-size: 17px;
+      font-style: italic;
+      color: #e0e0e0;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: var(--primary);
+      border-left: 5px solid var(--accent);
+      padding-left: 15px;
+      margin-bottom: 25px;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+      margin-bottom: 25px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .projects .project {
+      border-left: 4px solid var(--accent);
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #f3f3f3;
+      padding: 30px;
+      font-size: 14px;
+      color: var(--text-muted);
+      border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="yastin.jpeg" alt="Foto Konstantina Kue" />
+    <h1>Konstantina Kue</h1>
+    <p>Web Developer • UI Designer • Tech Enthusiast</p>
+  </header>
+
+  <div class="container">
+
+    <section class="about card">
+      <h2>Tentang Saya</h2>
+      <p>Halo! Saya Konstantina Kue, Mahasiswa S1 Sistem Informasi yang antusias dengan dunia web development dan UI/UX design. Saya memiliki dedikasi tinggi dalam menciptakan solusi digital yang efisien dan berestetika.</p>
+    </section>
+
+    <section class="projects">
+      <h2>🧩 Proyek / Karya</h2>
+
+      <div class="card project">
+        <h3>1. Aplikasi To-Do List</h3>
+        <p>Aplikasi web ringan untuk mencatat tugas harian berbasis HTML, CSS, dan JavaScript. Data disimpan secara lokal.</p>
+      </div>
+
+      <div class="card project">
+        <h3>2. Website Portofolio</h3>
+        <p>Website personal yang responsif dan estetis, menyajikan informasi diri, skill, dan karya secara profesional.</p>
+      </div>
+
+      <div class="card project">
+        <h3>3. Sistem Booking Layanan</h3>
+        <p>Platform berbasis PHP dan MySQL untuk pemesanan layanan online. Fitur termasuk login admin/user dan manajemen jadwal.</p>
+      </div>
+
+    </section>
+
+    <section class="skills card">
+      <h2>🛠 Keahlian</h2>
+      <ul>
+        <li>HTML5, CSS3, JavaScript, PHP</li>
+        <li>Framework: Bootstrap, Laravel</li>
+        <li>Database: MySQL</li>
+        <li>Desain UI: Figma, Canva</li>
+      </ul>
+    </section>
+
+    <section class="contact card">
+      <h2>📩 Kontak</h2>
+      <ul>
+        <li>Email: <a href="mailto:yastinkue@gmail.com">yastinkue@gmail.com</a></li>
+        <li>WhatsApp: 0813-3570-1205</li>
+      </ul>
+    </section>
+
+    <section class="social card">
+      <h2>🔗 Media Sosial</h2>
+      <ul>
+        <li><a href="https://www.instagram.com/yastin_djawa" target="_blank">Instagram: @yastin_djawa</a></li>
+      </ul>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Konstantina Kue – Hak Cipta Dilindungi</p>
+  </footer>
+
+</body>
+</html>
